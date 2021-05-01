@@ -1,0 +1,129 @@
+.hd{
+    text-align: center;
+    font-size: xx-large;
+    color:  #666666;
+}
+.hdone{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.search{
+    text-align: center;
+    margin:1%;
+}
+.boxin{
+    border-radius: 7px;
+    margin: 15px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+}
+.bt{
+    margin: 15px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+.heading{
+    background-color: #ffffb3;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    height: 40px;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.headone{
+    color: #660066;
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    left: 39%;
+}
+.contain{
+    display: flex;
+    flex-direction: column;
+    background-color:#d1ccc0 ;
+
+}
+.pic{
+    width: 55vh;
+    height: 55vh;
+    border: 3px solid black;    
+    margin: 20px;
+}
+.containerone{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+
+}
+.containertwo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-top: 20px;
+   
+}
+/* //for like */
+
+.like{
+    margin-top: 10px;
+  margin-right: 50px;
+  height: 20px;
+  width: 28px;
+  float: right;
+
+  
+
+}
+#box { 
+    margin:4px, 4px; 
+    padding-left:30px; 
+    background-color:#d9d9d9; 
+    width: 830px; 
+    height: 200px; 
+    overflow-x: hidden; 
+    overflow-y: auto; 
+    text-align:justify; 
+    display: flex;
+    flex-direction: row;
+} 
+
+/* heading of ingrid */
+
+.ingrdhead{
+   margin-top: 15px;
+   font-style: italic;
+}
+.desc{
+    margin:4px, 4px; 
+    padding:15px; 
+    background-color:#d9d9d9; 
+    width: 830px; 
+    height: auto;
+    text-align:justify; 
+    word-spacing: 2px;
+}
+.link{
+    text-decoration: none;
+}
+.red {
+    color: red;
+    cursor: pointer;
+  }
+  
+  .black {
+    color: none;
+    cursor: pointer;
+  }
